@@ -28,7 +28,7 @@ var sum = 0
 
 function typeWriter() {
   var speed = 30  /* The speed/duration of the effect in milliseconds */
-  console.log(speed)
+  // console.log(speed)
   if (i < txt.length) {
     document.getElementById("blurb").innerHTML += txt.charAt(i);
     i++;
