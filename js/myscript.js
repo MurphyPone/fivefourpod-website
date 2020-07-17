@@ -19,7 +19,7 @@ var list = [
              "\"A podcast where we disect and analyze the cases that have swarmed American life, like locusts over a grassy plane\"",
              "\"A podcast where we disect and analyze the Supreme Court cases that have burned through America, like a dry-season brushfire through a grassland plane\"",
              "\"A podcast where we disect and analyze the Supreme Court cases that have clogged up the American spirit, like cholesterol in our collective aorta\"",
-             "\"A podcast where we disect and analyze the Supreme Court decicions that have born down on Americans, like unfilitered ultraviolet light on a pale,nude body\"",
+             "\"A podcast where we disect and analyze the Supreme Court decicions that have born down on Americans, like unfilitered ultraviolet light on a pale, nude body\"",
              "\"A podcast where we disect and analyze the Supreme Court cases that have leeched America's nutrients, like a tapeworm from its unsuspecting host\"",
             ]
 
