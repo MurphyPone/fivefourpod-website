@@ -34,13 +34,31 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: "SB Body", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    --my-red: #db4045;
+    --nav-color: #2c3e50;
 }
 
 *,
 :after,
 :before {
     box-sizing: border-box
+}
+
+/* my styles */
+
+.my-card { 
+    width: 332px; 
+    height: 240px;  
+    background-color:var(--nav-color);
+}
+
+.my-title {
+    text-align: center; 
+    color: #fff; 
+    line-height: 240px; 
+    font-size: 1.2rem
 }
 
 html {
@@ -10982,7 +11000,7 @@ a.text-dark:hover {
 .masthead .masthead-heading {
     font-size: 2.75rem;
     line-height: 2.75rem;
-    color: rgb(183, 20, 26);
+    color: #b7141a;
 }
 
 .masthead .masthead-subheading {
@@ -10991,8 +11009,7 @@ a.text-dark:hover {
 }
 
 .masthead .masthead-avatar {
-    width: 15rem;
-    clip-path: circle(100px at center);
+    width: 20rem;
 }
 
 @media (min-width:992px) {
@@ -11034,7 +11051,8 @@ a.text-dark:hover {
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-    font-size: 1.5rem
+    font-size: 1rem;
+    margin: .2rem;
 }
 
 .portfolio-modal .portfolio-modal-title {
