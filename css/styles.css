@@ -11016,6 +11016,8 @@ a.text-dark:hover {
 
 .masthead .masthead-avatar {
     width: 20rem;
+    clip-path: circle(80px at center); 
+    align-self: center
 }
 
 @media (min-width:992px) {
@@ -11031,6 +11033,12 @@ a.text-dark:hover {
 
     .masthead .masthead-subheading {
         font-size: 1.5rem
+    }
+    
+    .masthead .masthead-avatar {
+        width: 20rem;
+        clip-path: circle(80px at center); 
+        align-self: center
     }
 }
 
