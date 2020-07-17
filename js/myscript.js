@@ -20,14 +20,15 @@ var list = [
              "\"A podcast where we disect and analyze the Supreme Court cases that have burned through America, like a dry-season brushfire through a grassland plane\"",
              "\"A podcast where we disect and analyze the Supreme Court cases that have clogged up the American spirit, like cholesterol in our collective aorta\"",
              "\"A podcast where we disect and analyze the Supreme Court decicions that have born down on Americans, like unfilitered ultraviolet light on a pale,nude body\"",
-             "\"A podcast where we disect and analyze the Supreme Court cases that have leeched America's nutrients, like a tapeworm from its unsuspecting hose\"",
+             "\"A podcast where we disect and analyze the Supreme Court cases that have leeched America's nutrients, like a tapeworm from its unsuspecting host\"",
             ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
 var sum = 0
 
 function typeWriter() {
-  var speed = 30; /* The speed/duration of the effect in milliseconds */
+  var speed = 30  /* The speed/duration of the effect in milliseconds */
+  console.log(speed)
   if (i < txt.length) {
     document.getElementById("blurb").innerHTML += txt.charAt(i);
     i++;
