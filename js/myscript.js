@@ -42,3 +42,7 @@ function typeWriter() {
 
 
 
+/// Automatic tiling thing
+
+var modals = ['portfolioModal0', 'portfolioModal1', 'portfolioModal2', 'portfolioModal3', 'portfolioModal4', 'portfolioModal5'
+]
