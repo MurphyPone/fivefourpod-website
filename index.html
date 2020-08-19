@@ -25,7 +25,7 @@
         <script src="js/myscript.js"></script>
         <link rel="icon" href="assets/img/favicon.png">
     </head>
-    <body id="page-top" onload="typeWriter()">
+    <body id="page-top" onload="doLoad()">
         <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
             <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">5-4 Pod</a>
                 <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
@@ -71,72 +71,73 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
+                <div class="row justify-content-center" id="episode-cards">
                     <!-- Portfolio Items-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">The pod discusses a decision that let employers pressure workers into signing away their rights to class action suits. </div>
+                                <div class="portfolio-item-caption-content text-center text-white" id="my-description-0">The pod discusses a decision that let employers pressure workers into signing away their rights to class action suits. </div>
                             </div>
                             <!-- <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="Log Cabin"/> -->
                             <div class="my-card">
-                                <p class="my-title">Epic Systems v. Lewis</p>
+                                <p class="my-title" id="my-title-0">Epic Systems v. Lewis</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">The pod talks about campaign finance in Buckley v. Valeo. The decision established that, when it comes to elections, money is speech based on the First Amendment</div>
+                                <div class="portfolio-item-caption-content text-center text-white" id="my-description-1">The pod talks about campaign finance in Buckley v. Valeo. The decision established that, when it comes to elections, money is speech based on the First Amendment</div>
                             </div>
                             <div class="my-card">
-                                <p class="my-title">Buckley v. Valeo</p>
+                                <p class="my-title" id="my-title-1">Buckley v. Valeo</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">The pod is joined by a special guest Sam Bagenstos, professor at the University of Michigan Law School, to discuss a case that made it harder for unions to collect fees.</div>
+                                <div class="portfolio-item-caption-content text-center text-white" id="my-description-2">The pod is joined by a special guest Sam Bagenstos, professor at the University of Michigan Law School, to discuss a case that made it harder for unions to collect fees.</div>
                             </div>
                             <div class="my-card">
-                                <p class="my-title">Janus v. AFSCME</p>
+                                <p class="my-title" id="my-title-2">Janus v. AFSCME</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">The pod examines the doctrine of qualified immunity, which protects police and other officials from being sued for civil rights and other abuses.</div>
+                                <div class="portfolio-item-caption-content text-center text-white" id="my-description-3">The pod examines the doctrine of qualified immunity, which protects police and other officials from being sued for civil rights and other abuses.</div>
                             </div>
                             <div class="my-card">
-                                <p class="my-title">Qualified Immunity</p>
+                                <p class="my-title" id="my-title-3">Qualified Immunity</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">The pod discusses a decision that limited damages in the case of the Exxon Valdez oil spill, one of the worst environment disasters in US history. The ruling also capped damages that can be sought in all maritime law cases.</div>
+                                <div class="portfolio-item-caption-content text-center text-white" id="my-description-4">The pod discusses a decision that limited damages in the case of the Exxon Valdez oil spill, one of the worst environment disasters in US history. The ruling also capped damages that can be sought in all maritime law cases.</div>
                             </div>
                             <div class="my-card">
-                                <p class="my-title">Exxon Shipping v. Baker</p>
+                                <p class="my-title" id="my-title-4">Exxon Shipping v. Baker</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">The pod talks about the Court’s surprise decision affirming that the Civil Rights Act prevents employers from discriminating against people on the basis of their gender identity or sexual orientation. The hosts pay special attention to Justice Alito’s special dissent.  </div>
+                                <div class="portfolio-item-caption-content text-center text-white" id="my-description-5">The pod talks about the Court’s surprise decision affirming that the Civil Rights Act prevents employers from discriminating against people on the basis of their gender identity or sexual orientation. The hosts pay special attention to Justice Alito’s special dissent.  </div>
                             </div>
                             <div class="my-card">
-                                <p class="my-title">Bostock v. Clayton County, Georgia</p>
+                                <p class="my-title" id="my-title-5">Bostock v. Clayton County, Georgia</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Portfolio Modal-->
         <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -147,7 +148,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Epic Systems v. Lewis</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="card-title-0">Epic Systems v. Lewis</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -163,8 +164,8 @@
                                         <a class="btn btn-outline-dark btn-social mx-1" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vV1dPNTU5MTczNjcwNQ"><i class="fab fa-fw fa-google"></i></a>                    
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p style="color: var(--my-blue); padding-bottom: 1em;">July 14, 2020</p>
-                                    <p class="mb-5">On this week’s episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) discuss a decision that let employers pressure workers into signing away their rights to class action suits.</p>
+                                    <p style="color: var(--my-blue); padding-bottom: 1em;" id="my-date-0">July 14, 2020</p>
+                                    <p class="mb-5" id="my-summay-0">On this week’s episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) discuss a decision that let employers pressure workers into signing away their rights to class action suits.</p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -182,7 +183,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Buckley v. Valeo</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="card-title-1">Buckley v. Valeo</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -198,8 +199,8 @@
                                         <a class="btn btn-outline-dark btn-social mx-1" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vV1dPNTU5MTczNjcwNQ"><i class="fab fa-fw fa-google"></i></a>                    
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p style="color: var(--my-blue); padding-bottom: 1em;">July 7, 2020</p>
-                                    <p class="mb-5">On this week’s episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) talk about campaign finance in Buckley v. Valeo. The decision established that, when it comes to elections, money is speech based on the First Amendment.</p>
+                                    <p style="color: var(--my-blue); padding-bottom: 1em;" id="my-date-1">July 7, 2020</p>
+                                    <p class="mb-5" id="my-summay-1">On this week’s episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) talk about campaign finance in Buckley v. Valeo. The decision established that, when it comes to elections, money is speech based on the First Amendment.</p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -217,7 +218,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Janus v. AFSCME</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="card-title-2">Janus v. AFSCME</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -233,8 +234,8 @@
                                         <a class="btn btn-outline-dark btn-social mx-1" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vV1dPNTU5MTczNjcwNQ"><i class="fab fa-fw fa-google"></i></a>                    
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p style="color: var(--my-blue); padding-bottom: 1em;">June 30, 2020</p>
-                                    <p class="mb-5">On this week’s episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) are joined by special guest Sam Bagenstos, professor at the University of Michigan Law School, to discuss a case that made it harder for unions to collect fees.</p>
+                                    <p style="color: var(--my-blue); padding-bottom: 1em;" id="my-date-2">June 30, 2020</p>
+                                    <p class="mb-5" id="my-summay-2">On this week’s episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) are joined by special guest Sam Bagenstos, professor at the University of Michigan Law School, to discuss a case that made it harder for unions to collect fees.</p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -252,7 +253,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Qualified Immunity</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="card-title-3">Qualified Immunity</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -268,8 +269,8 @@
                                         <a class="btn btn-outline-dark btn-social mx-1" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vV1dPNTU5MTczNjcwNQ"><i class="fab fa-fw fa-google"></i></a>                    
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p style="color: var(--my-blue); padding-bottom: 1em;">June 23, 2020</p>
-                                    <p class="mb-5">On this week’s episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) examine the doctrine of qualified immunity, which protects police and other officials from being sued for civil rights and other abuses.</p>
+                                    <p style="color: var(--my-blue); padding-bottom: 1em;" id="my-date-3">June 23, 2020</p>
+                                    <p class="mb-5" id="my-summay-3">On this week’s episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) examine the doctrine of qualified immunity, which protects police and other officials from being sued for civil rights and other abuses.</p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -287,7 +288,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Exxon Shipping v. Baker</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="card-title-4">Exxon Shipping v. Baker</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -303,8 +304,8 @@
                                         <a class="btn btn-outline-dark btn-social mx-1" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vV1dPNTU5MTczNjcwNQ"><i class="fab fa-fw fa-google"></i></a>                    
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p style="color: var(--my-blue); padding-bottom: 1em;">June 17, 2020</p>
-                                    <p class="mb-5">On this week’s episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) discuss a decision that limited damages in the case of the Exxon Valdez oil spill, one of the worst environmental disasters in US history. The ruling also capped damages that can be sought in all maritime law cases.</p>
+                                    <p style="color: var(--my-blue); padding-bottom: 1em;" id="my-date-4">June 17, 2020</p>
+                                    <p class="mb-5" id="my-summay-4">On this week’s episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) discuss a decision that limited damages in the case of the Exxon Valdez oil spill, one of the worst environmental disasters in US history. The ruling also capped damages that can be sought in all maritime law cases.</p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -322,7 +323,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Bockstock v. Clayton County, Georgia</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="card-title-5">Bockstock v. Clayton County, Georgia</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -338,8 +339,8 @@
                                         <a class="btn btn-outline-dark btn-social mx-1" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vV1dPNTU5MTczNjcwNQ"><i class="fab fa-fw fa-google"></i></a>                    
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p style="color: var(--my-blue);">June 16, 2020</p>
-                                    <p class="mb-5">On this week’s bonus episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) talk about the Court’s surprise decision affirming that the Civil Rights Act prevents employers from discriminating against people on the basis of their gender identity or sexual orientation. The hosts pay special attention to Justice Alito’s special dissent.</p>
+                                    <p style="color: var(--my-blue);" id="my-date-5">June 16, 2020</p>
+                                    <p class="mb-5" id="my-summay-5">On this week’s bonus episode of 5-4, Peter (@The_Law_Boy), Rhiannon (@AywaRhiannon), and Michael (@_FleerUltra) talk about the Court’s surprise decision affirming that the Civil Rights Act prevents employers from discriminating against people on the basis of their gender identity or sexual orientation. The hosts pay special attention to Justice Alito’s special dissent.</p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
