@@ -11,7 +11,7 @@
 - [x] Add links to social media
 - [x] Add episode cards
 - [x] Enable Google analytics
-    - [ ] Add podcasting email so they can gain insights
+    - [x] Add podcasting email so they can gain insights
 - [x] Automate fetching the latest descriptions from apple music
     - [x] titles, summaries (cleaned), dates
     - [ ] fetch streaming links too
@@ -20,6 +20,5 @@
 - [ ] Containerize it rather than hosting on GHP, may not be necessary depending on how much traffic it gets
 - [ ] Embed Tweets?
 - [ ] Improve build pipeline by adding a developmennt environment rather than solo-doloing inside master
-- [ ] _Maybe_ automate getting the first 30s
 
 
