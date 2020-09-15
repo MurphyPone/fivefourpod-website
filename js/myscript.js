@@ -24,7 +24,10 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court decisions that have broken down American society, like radiation on human DNA\"",
             "\"A podcast where we dissect and analyze the Supreme Court cases that have burned through American life, like hot lava through the streets of Pompei\"",
             "\"A podcast where we dissect and analyze the Supreme Court cases that have spread like rabies through the American nervous system\"",
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have unraveled the fabric of American society, like a nail caught in a sweater\"" /* Boy Scouts of America v. Dale */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have unraveled the fabric of American society, like a nail caught in a sweater\"", 
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have slowly ravaged America, like the Mongol invasions of Central Asia\"",
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have brought American civil rights to the brink of extinction, much like poachers have to the Leatherback sea turtles\"",
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have toyed with American freedoms, like a cat batting around a half-dead bird\"" /* Voting Rights */
             ]
 
 var txt = list[Math.floor(Math.random() * list.length)]

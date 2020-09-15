@@ -1006,3 +1006,4 @@ JavaScript warning: https://podcasts.apple.com/assets/vendor-85bb2f9a13e40ded296
 1599594437134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1599594438773	Marionette	INFO	Listening on port 59391
 1599594438793	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600135380958	Marionette	INFO	Stopped listening on port 59391
