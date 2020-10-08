@@ -63,7 +63,8 @@
     text-align: center; 
     color: #fff; 
     line-height: 240px; 
-    font-size: 1.2rem
+    font-size: 1em;
+    word-break: break-all;
 }
 
 html {
