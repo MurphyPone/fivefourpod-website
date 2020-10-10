@@ -24,8 +24,8 @@
     - [x] meta tags
     - [x] og tags
     - [x] social media specific
-        - [ ] canonical links
-    - [ ] google search console, verify the site
+        - [x] canonical links
+    - [x] google search console, verify the site
     - [ ] add a 404.html page
 
 ## Notes from chatting with the pod
