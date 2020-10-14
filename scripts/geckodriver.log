@@ -1034,3 +1034,14 @@ JavaScript warning: https://podcasts.apple.com/assets/vendor-85bb2f9a13e40ded296
 1602194143583	Marionette	INFO	Listening on port 50505
 1602194143616	Marionette	WARN	TLS certificate errors will be ignored for this session
 1602195087173	Marionette	INFO	Stopped listening on port 50505
+1602700640693	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gp/xy0gj5n574gb5c_pvmhnbs480000gn/T/rust_mozprofileMBrdhk"
+1602700646768	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1602700646799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1602700646799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1602700646799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1602700646799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1602700648967	Marionette	INFO	Listening on port 57812
+1602700649032	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 16: TypeError: browser is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+1602700822265	Marionette	INFO	Stopped listening on port 57812

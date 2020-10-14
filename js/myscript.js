@@ -29,7 +29,8 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have brought American civil rights to the brink of extinction, much like poachers have to the Leatherback sea turtles\"",
             "\"A podcast where we dissect and analyze the Supreme Court cases that have toyed with American freedoms, like a cat batting around a half-dead bird\"",
             "\"A podcast where we dissect and analyze the Supreme Court cases that have cut off America's circulation, like Raynaud's disease\"", 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have rained down hellfire upon us, like God onto Sodom; leaving nothing but ashes where our hopes once were\"", /* ACB is a right wing freak */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have rained down hellfire upon us, like God onto Sodom; leaving nothing but ashes where our hopes once were\"", 
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have weakened America's immune system, like a lifetime of poor nutrition\"", /* The electoral coup is coming */
             ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
