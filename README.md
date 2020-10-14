@@ -26,7 +26,8 @@
     - [x] social media specific
         - [x] canonical links
     - [x] google search console, verify the site
-    - [ ] add a 404.html page
+    - [x] add a 404.html page
+    - [ ] wait for 7-15 days for meta days
 
 ## Notes from chatting with the pod
 
