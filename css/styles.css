@@ -6917,11 +6917,25 @@ a.close.disabled {
     background-color: var(--nav-color) !important
 }
 
+.bg-back-btn {
+    background-color: var(--my-red) !important;
+    width: 10rem;
+    border-radius: 0.5em;
+}
+
+
+.bg-back-btn:hover {
+    background-color: #fff !important;
+    color: var(--my-red) !important;
+
+}
+
+button.bg-primary:focus,
 a.bg-primary:focus,
 a.bg-primary:hover,
 button.bg-primary:focus,
 button.bg-primary:hover {
-    background-color: var(--my-blue)!important
+    background-color: var(--my-blue)!important;
 }
 
 .bg-secondary {
@@ -10935,7 +10949,7 @@ a.text-dark:hover {
 }
 
 #mainNav .navbar-brand {
-    color: vaR(--my-red)
+    color: var(--my-red)
 }
 
 #mainNav .navbar-nav {
