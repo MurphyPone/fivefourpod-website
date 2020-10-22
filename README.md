@@ -28,6 +28,9 @@
     - [x] google search console, verify the site
     - [x] add a 404.html page
     - [ ] wait for 7-15 days for meta days
+- [ ] fix the 404 page
+    - [ ] make the header fill-vertical
+    - [ ] fix the button styling
 
 ## Notes from chatting with the pod
 
