@@ -32,7 +32,7 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have rained down hellfire upon us, like God onto Sodom; leaving nothing but ashes where our hopes once were\"", 
             "\"A podcast where we dissect and analyze the Supreme Court cases that have weakened America's immune system, like a lifetime of poor nutrition\"", 
             "\"A podcast where we dissect and analyze the Supreme Court cases that have sapped oxygen from America's bloodstream like the novel virus COVID-19\"", 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have taken control of American life, like that fungus that takes control of ants' brains and turns them into zombies\"", /* How to fix the court */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have taken control of American life, like that fungus that takes control of ants' brains and turns them into zombies\"", /* How to Fix the Court, bush v. gore*/
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]

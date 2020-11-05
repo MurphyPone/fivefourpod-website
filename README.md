@@ -14,6 +14,7 @@
     - [x] Add podcasting email so they can gain insights
 - [x] Automate fetching the latest descriptions from apple music
     - [x] titles, summaries (cleaned), dates
+    - [ ] FIX THIS
 - [ ] Add webstore somehow...
 - [ ] Sponsors?
 - [ ] Figure out if all rights _are_ in fact reserved
