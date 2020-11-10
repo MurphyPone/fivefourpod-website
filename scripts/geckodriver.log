@@ -1097,3 +1097,7 @@ JavaScript error: , line 0: NS_ERROR_UNEXPECTED:
 1604535331717	Marionette	INFO	Listening on port 60702
 1604535331757	Marionette	WARN	TLS certificate errors will be ignored for this session
 1604535352229	Marionette	INFO	Stopped listening on port 60601
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+1604703274206	Marionette	INFO	Stopped listening on port 49589
+1604703281804	Marionette	INFO	Stopped listening on port 60702
