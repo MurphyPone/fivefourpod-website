@@ -35,7 +35,8 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have taken control of American life, like that fungus that takes control of ants' brains and turns them into zombies\"", 
             "\"A podcast where we dissect and analyze the Supreme Court cases that have left America flailing and helpless, like an outgoing president who is emotionally incapable of admitting defeat\"", 
             "\"A podcast where we dissect and analyze the Supreme Court cases that have infiltrated American life, like an invasive species\"", 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have blocked out America's sun, like a California brushfire\"", /* Ashcroft v. Iqbal, */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have blocked out America's sun, like a California brushfire\"", 
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have coalesced like that garbage island in the Pacific Ocean; together a monument to the sheer scale of man's folley\"", /* Freedom is Contagious */
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
