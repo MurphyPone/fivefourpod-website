@@ -37,6 +37,7 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have infiltrated American life, like an invasive species\"", 
             "\"A podcast where we dissect and analyze the Supreme Court cases that have blocked out America's sun, like a California brushfire\"", 
             "\"A podcast where we dissect and analyze the Supreme Court cases that have coalesced like that garbage island in the Pacific Ocean; together a monument to the sheer scale of man's folley\"", /* Freedom is Contagious */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have killed off our civil liberties in the service of a misguided intellectual experiment, like Edison killed Topsy the elephant\"", /* Herrera v. Collins */
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
