@@ -15,13 +15,15 @@
 - [x] Automate fetching the latest descriptions from apple music
     - [x] titles, summaries (cleaned), dates
     - [ ] FIX THIS
-- [ ] Add webstore somehow...
+- [x] Add webstore somehow...
+    - link to TeeSpring
+- [ ] truncate descriptions on hover 
 - [ ] Sponsors?
 - [ ] Figure out if all rights _are_ in fact reserved
 - [ ] Containerize it rather than hosting on GHP, may not be necessary depending on how much traffic it gets
 - [ ] Embed Tweets?
 - [ ] Improve build pipeline by adding a developmennt environment rather than solo-doloing inside master
-- [ ] SEO 
+- [x] SEO 
     - [x] meta tags
     - [x] og tags
     - [x] social media specific
@@ -29,9 +31,10 @@
     - [x] google search console, verify the site
     - [x] add a 404.html page
     - [ ] wait for 7-15 days for meta days
-- [ ] fix the 404 page
-    - [ ] make the header fill-vertical
+- [x] fix the 404 page
+    - [x] make the header fill-vertical
     - [x] fix the button styling
+
 
 ## Notes from chatting with the pod
 
