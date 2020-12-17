@@ -18,6 +18,8 @@
 - [x] Add webstore somehow...
     - link to TeeSpring
 - [ ] truncate descriptions on hover 
+- [ ] Add transcripts section
+    - [ ] double check that the metaphors aren't broken
 - [ ] Sponsors?
 - [ ] Figure out if all rights _are_ in fact reserved
 - [ ] Containerize it rather than hosting on GHP, may not be necessary depending on how much traffic it gets
