@@ -300,12 +300,12 @@ select {
     word-wrap: normal
 }
 
-[type=button],
+/* [type=button],
 [type=reset],
 [type=submit],
 button {
     -webkit-appearance: button
-}
+} */
 
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
