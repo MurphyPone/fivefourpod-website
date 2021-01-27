@@ -39,6 +39,7 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have killed off our civil liberties in the service of a misguided intellectual experiment, like Edison killed Topsy the elephant\"", /* Herrera v. Collins */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have caused our civil liberties to disappear, like Amelia Earhart over the Pacific\"", /* Roe v. Wade, Pt. 1 */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have dissolved our liberties, like cotton candy into water.\"", /* Roe v. Wade, Pt. 2 */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have, like a mighty river, wound their way over the great rock of our liberty, reducing it over many years to a canyon of despair\"", /* Morse v. Frederick*/
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
