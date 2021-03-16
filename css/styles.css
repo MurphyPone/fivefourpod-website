@@ -64,7 +64,6 @@
     color: #fff; 
     line-height: 240px; 
     font-size: 1em;
-    word-break: break-all;
 }
 
 html {
@@ -11063,7 +11062,7 @@ a.text-dark:hover {
     display: block;
     max-width: 25rem;
     border-radius: .5rem;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
