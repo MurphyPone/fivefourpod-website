@@ -45,6 +45,7 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have pecked away at our civil rights, like a nervous bird plucking at its feathers\"", /* Atkins v. Virginia */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have bulldozed our civil rights, like the Cargill corporation has bulldozed the Amazon Rainforest\"", /* McCleskey v. Klemp */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have dilapidated our liberty, like rising ocean temperatures have bleached the Great Barrier Reef\"", /* San Antonio ISD v. Rodriguez */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have conquered the peaceful island of our liberties, like the Moors conquered Sicily\"", /* Scalia */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have ground our liberties to the bone, like the cartilage in a veteran NBA player's knees\"", /* Toyota v. Williams */
           ]
 
