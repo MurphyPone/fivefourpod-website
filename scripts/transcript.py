@@ -32,7 +32,6 @@ if folder == "../FIVEFOUR_TRANSCRIPTS/":
                     clean_file(f"{folder}{sub_folder}", entry)
 
 else: 
-    
     # find the .txt 
     for entry in os.listdir(folder):
         if os.path.isfile(os.path.join(folder, entry)):
