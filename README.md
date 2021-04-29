@@ -36,20 +36,9 @@
     - [x] make the header fill-vertical
     - [x] fix the button styling
 
-
-## Notes from chatting with the pod
-
-On the brink of being ready to publish the site. 
-
-Everyone loves the site, pressuring Leon how to get a merch store set up for them.  In his naivete, he built a website for the merchstore.
-
-change the /store route to point to the wix site.  
-
-1. Keep fivefourpod.com it will reroute to the wix page for the shop.  Can pay for the hosting fees.  And compensate me for hours.
-
-2. Have Leon get me the Wix login to poke around to see If I can't get it done.
-
-3. Another thing they'd like to do is a TeeSpring - see if we can't get it embedded nicely.  
-
+### v2 Design 
+- show fewer recent episodes
+- each transcript should be its own page
+- remove hover effect on modals or make them larger to house entire episode descriptions
 
 
