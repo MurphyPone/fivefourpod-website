@@ -1,7 +1,7 @@
 import csv 
 import os
 
-# open the csv file 
+# open the csv file and read contents to `episodes` dictionary
 episodes = {}
 with open("episode_info.csv", "r") as f:
     csv_reader = csv.DictReader(f)
@@ -13,12 +13,13 @@ with open("episode_info.csv", "r") as f:
             "metaphor": row["metaphor"],
         }
 
+# strips invalid url characters from a title for URL
 def get_cleaned_title(episode):
     return episode["title"].replace(" ", "-").replace(".", "").replace(",", "").replace(":", "-").lower()
 
 
 # open the template file and create a new file with the relevant info plugged in 
-def paginate():
+def paginate(number):
     with open("../episodes/episode-template/index.html", "r") as f:
         episode = episodes[number]
         lines = f.readlines()
@@ -38,15 +39,14 @@ def paginate():
     with open(f"{target_dir}/index.html", "w") as f:
         f.writelines(new_file_list)
 
-# for i in range(1, len(episodes)+1):
-#     number = i 
-#     paginate()
+for i in range(1, len(episodes)+1):
+    paginate(i)
     
-
-def dropdown():
-    for i in range(len(episodes), 0,-1):
-        episode = episodes[i]
-        out = f"""              <div class="collapsible">{episode["title"]}<a style=float:right;>{i}</a></div>
+# generates the dropdown html for an episode (or all episodes)
+def dropdown(number=None):
+    if number:
+        episode = episodes[number]
+        out = f"""              <div class="collapsible">{episode["title"]}<a style=float:right;>{number}</a></div>
                 <div class="content">
                     <div>
                         <p>{episode["summary"]}</p>
@@ -57,8 +57,22 @@ def dropdown():
                 </div>
             """
         print(out)
+    else:
+        for i in range(len(episodes), 0,-1):
+            episode = episodes[i]
+            out = f"""              <div class="collapsible">{episode["title"]}<a style=float:right;>{i}</a></div>
+                    <div class="content">
+                        <div>
+                            <p>{episode["summary"]}</p>
+                            <div class="transcript-wrapper">
+                                <a href="episodes/{get_cleaned_title(episode)}/" class="transcript-btn">TRANSCRIPT</a>
+                            </div>
+                        </div>
+                    </div>
+                """
+            print(out)
 
-dropdown()
+# dropdown(1)
 
     
 
