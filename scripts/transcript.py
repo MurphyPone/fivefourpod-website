@@ -4,14 +4,13 @@ import os
 
 DEST_PATH = "processed_transcripts"
 
-def clean_file(folder, entry):
+def clean_file(folder, entry, number):
     cleaned_lines = []
     with open(f"{folder}/{entry}", "r") as f:
         for line in f:
             if not line == "\n":
                 cleaned_lines.append(f"<p>{line.strip()}</p>")
-                
-    with open(f"{DEST_PATH}/{entry}_CLEANED.txt", "w") as f:
+    with open(f"{DEST_PATH}/{number}_CLEANED.txt", "w") as f:
         for line in cleaned_lines:
             f.write(f"{line}\n")
 
@@ -26,10 +25,11 @@ if folder == "../FIVEFOUR_TRANSCRIPTS/":
         for entry in os.listdir(f"{folder}{sub_folder}"):
             if os.path.isfile(os.path.join(f"{folder}{sub_folder}", entry)):
                 if entry.endswith(".txt"):
-                    print(f"\tprocessing single file: {folder}{sub_folder}/{entry}")
+                    number = sub_folder.split(".")[0]
+                    print(f"\tprocessing single file {number}: {folder}{sub_folder}/{entry}")
                     
                     # clean the given transcript
-                    clean_file(f"{folder}{sub_folder}", entry)
+                    clean_file(f"{folder}{sub_folder}", entry, number)
 
 else: 
     # find the .txt 
