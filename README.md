@@ -37,8 +37,15 @@
     - [x] fix the button styling
 
 ### v2 Design 
-- show fewer recent episodes
-- each transcript should be its own page
-- remove hover effect on modals or make them larger to house entire episode descriptions
+- main 
+    - recent episodes -> all episodes
+        - transcript drop down become the episode descriptions with a link to visit a new page /episodes/`<episode name>`
+- episode page design
+    - back button
+    - title
+    - description / meta info / streaming links
+    - metaphor 
+    - transcript
+- Remove the `.html` extensions
 
 
