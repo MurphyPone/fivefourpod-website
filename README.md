@@ -1,51 +1,29 @@
-# How to Use
-1. install Python 3.6+
-2. install python packages `pip install -r requirements.txt`
-3. fetch the latest project descriptions with `python fetch.py`
-4. build the website locally to verify everything worked
-5. deploy by pushing to master
+# The Official Website for 5-4
 
-# TODOs
+## Scripts
 
-- [x] Create skeleton of website
-- [x] Add links to social media
-- [x] Add episode cards
-- [x] Enable Google analytics
-    - [x] Add podcasting email so they can gain insights
-- [x] Automate fetching the latest descriptions from apple music
-    - [x] titles, summaries (cleaned), dates
-    - [ ] truncate descriptions on hover 
-- [x] Add webstore somehow...
-    - link to TeeSpring
-- [x] Add transcripts section
-    - [x] double check that the metaphors aren't broken
-- [ ] Sponsors?
-- [ ] Figure out if all rights _are_ in fact reserved
-- [ ] Containerize it rather than hosting on GHP, may not be necessary depending on how much traffic it gets
-- [ ] Embed Tweets?
-- [ ] Improve build pipeline by adding a developmennt environment rather than solo-doloing inside master
-- [x] SEO 
-    - [x] meta tags
-    - [x] og tags
-    - [x] social media specific
-        - [x] canonical links
-    - [x] google search console, verify the site
-    - [x] add a 404.html page
-    - [ ] wait for 7-15 days for meta days
-- [x] fix the 404 page
-    - [x] make the header fill-vertical
-    - [x] fix the button styling
+### `scripts/fetch` 
+- Broken from Apple rearranging their layout. 
 
-### v2 Design 
-- main 
-    - recent episodes -> all episodes
-        - transcript drop down become the episode descriptions with a link to visit a new page /episodes/`<episode name>`
-- episode page design
-    - back button
-    - title
-    - description / meta info / streaming links
-    - metaphor 
-    - transcript
-- Remove the `.html` extensions
+### `scripts/transcript` 
+- invoke from the `scripts/` directory with the argument pointing to either a single file, or the directory storing raw `.txt` transcripts e.g.
+
+```
+scripts/ $ python transcript.py ../FIVEFOUR_TRANSCRIPTS
+scripts$ python transcript.py ../FIVEFOUR_TRANSCRIPTS/
+processing all transcript files
+        processing single file 40: ../FIVEFOUR_TRANSCRIPTS/40. Ashcroft v. Iqbal (How do you Plead)/FIVEFOUR_Iqbal_master.txt
+        processing single file 8: ../FIVEFOUR_TRANSCRIPTS/8. RNC v. DNC/FIVEFOUR_Emergency_Pod_040820_Final.txt
+        processing single file 38: ../FIVEFOUR_TRANSCRIPTS/38. Election Ep (Courts Can't Save)/FIVEFOUR_Election Episode_master.txt
+...
+```
+
+- outputs HTML formatted transcripts to a specified destination folder, numbered by episode
+
+### `scripts/paginate` 
+- reads the `episode_info.csv` file into a dictionary 
+- the `paginate()` function can be used to generate a `/episodes/<episode>.html` file from the `episode-template.html` file
+- the `dropdown()` function can be used to generate a dropdown description HTML snippet for the home page, linking to the generated episode page
+
 
 
