@@ -24,18 +24,18 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have burned through American life, like hot lava through the streets of Pompei\"", /* term recap */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have spread like rabies through the American nervous system\"", /* Miliken v. Bradley */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have unraveled the fabric of American society, like a nail caught in a sweater\"", /* Boy Scouts v. Dale */
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have slowly ravaged America, like the Mongol invasions of Central Asia\"",
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have brought American civil rights to the brink of extinction, much like poachers have to the Leatherback sea turtles\"",
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have toyed with American freedoms, like a cat batting around a half-dead bird\"",
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have cut off America's circulation, like Raynaud's disease\"", 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have rained down hellfire upon us, like God onto Sodom; leaving nothing but ashes where our hopes once were\"", 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have weakened America's immune system, like a lifetime of poor nutrition\"", 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have sapped oxygen from America's bloodstream like the novel virus COVID-19\"", 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have taken control of American life, like that fungus that takes control of ants' brains and turns them into zombies\"", 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have left America flailing and helpless, like an outgoing president who is emotionally incapable of admitting defeat\"", 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have infiltrated American life, like an invasive species\"", 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have blocked out America's sun, like a California brushfire\"", 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have coalesced like that garbage island in the Pacific Ocean; together a monument to the sheer scale of man's folley\"", /* Freedom is Contagious */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have slowly ravaged America, like the Mongol invasions of Central Asia\"", /*Nielsen v. Preap */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have brought American civil rights to the brink of extinction, much like poachers have to the Leatherback sea turtles\"", /* Flood v. Kuhn */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have toyed with American freedoms, like a cat batting around a half-dead bird\"", /* Voting Rights */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have cut off America's circulation, like Raynaud's disease\"", /* LA v. Lyons */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have rained down hellfire upon us, like God onto Sodom; leaving nothing but ashes where our hopes once were\"", /* ACB is a RWF */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have weakened America's immune system, like a lifetime of poor nutrition\"",  /* EC Coup */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have sapped oxygen from America's bloodstream like the novel virus COVID-19\"",  /* Rucho v. Common Cause */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have taken control of American life, like that fungus that takes control of ants' brains and turns them into zombies\"", /* How to Diz the Courts */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have left America flailing and helpless, like an outgoing president who is emotionally incapable of admitting defeat\"", /* The Courts Can't Save Him */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have infiltrated American life, like an invasive species\"", /* AZ Free Eneterprise v. Bennett */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have blocked out America's sun, like a California brushfire\"", /*Ashcroft v. Iqbal */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have coalesced like that garbage island in the Pacific Ocean; together a monument to the sheer scale of man's folley\"", /* Roman Catholic Diocese v. Cuomo*/ /* Freedom is Contagious */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have killed off our civil liberties in the service of a misguided intellectual experiment, like Edison killed Topsy the elephant\"", /* Herrera v. Collins */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have caused our civil liberties to disappear, like Amelia Earhart over the Pacific\"", /* Roe v. Wade, Pt. 1 */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have dissolved our liberties, like cotton candy into water.\"", /* Roe v. Wade, Pt. 2 */

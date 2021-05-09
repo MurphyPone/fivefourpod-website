@@ -13,31 +13,53 @@ with open("episode_info.csv", "r") as f:
             "metaphor": row["metaphor"],
         }
 
-print(episodes)
+def get_cleaned_title(episode):
+    return episode["title"].replace(" ", "-").replace(".", "").replace(",", "").replace(":", "-").lower()
 
-number = 1 # this should be a cmdline arg
 
 # open the template file and create a new file with the relevant info plugged in 
-with open("../episodes/episode-template/index.html", "r") as f:
-    episode = episodes[number]
-    lines = f.readlines()
-    new_file_list = [None] * len(lines)
-    for i,line in enumerate(lines):
-        line = line.replace("[[EPISODE_TITLE]]", episode["title"])
-        line = line.replace("[[EPISODE_DESCRIPTION]]", episode["summary"])
-        line = line.replace("[[EPISODE_METAPHOR]]", episode["metaphor"])
-        new_file_list[i] = line
+def paginate():
+    with open("../episodes/episode-template/index.html", "r") as f:
+        episode = episodes[number]
+        lines = f.readlines()
+        new_file_list = [None] * len(lines)
+        for i,line in enumerate(lines):
+            line = line.replace("[[EPISODE_TITLE]]", episode["title"])
+            line = line.replace("[[EPISODE_DESCRIPTION]]", episode["summary"])
+            line = line.replace("[[EPISODE_METAPHOR]]", episode["metaphor"])
+            new_file_list[i] = line
 
-cleaned_title = episode["title"].replace(" ", "-").replace(".", "").replace(",", "").replace(":", "-").lower()
-target_dir = f"{os.getcwd().split('scripts')[0]}episodes/{cleaned_title}"
+    cleaned_title = get_cleaned_title(episode)
+    target_dir = f"{os.getcwd().split('scripts')[0]}episodes/{cleaned_title}"
 
-if not os.path.exists(target_dir):
-    os.mkdir(target_dir)
+    if not os.path.exists(target_dir):
+        os.mkdir(target_dir)
 
-with open(f"{target_dir}/index.html", "w") as f:
-    f.writelines(new_file_list)
+    with open(f"{target_dir}/index.html", "w") as f:
+        f.writelines(new_file_list)
+
+# for i in range(1, len(episodes)+1):
+#     number = i 
+#     paginate()
     
-    
+
+def dropdown():
+    for i in range(len(episodes), 0,-1):
+        episode = episodes[i]
+        out = f"""              <div class="collapsible">{episode["title"]}<a style=float:right;>{i}</a></div>
+                <div class="content">
+                    <div>
+                        <p>{episode["summary"]}</p>
+                        <div class="transcript-wrapper">
+                            <a href="episodes/{get_cleaned_title(episode)}/" class="transcript-btn">TRANSCRIPT</a>
+                        </div>
+                    </div>
+                </div>
+            """
+        print(out)
+
+dropdown()
+
     
 
 
