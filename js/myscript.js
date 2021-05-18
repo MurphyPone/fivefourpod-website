@@ -51,6 +51,7 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have rendered our liberties completely immobile, like a cargo ship turned sideways in the Suez Canal\"", /* Hoffman v. NLRB */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have devastated American civil liberties, like domesticated cats have devastated local bird populations\"", /* Bowles v. Russell */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have swarmed our nation, like a brood of cicadas\"", /* Get Us to v. Seven */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have frayed and flattened our civil rights, like the bristles of an overused toothbrush\"", /* Jones v. Mississippi */
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]

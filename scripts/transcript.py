@@ -36,10 +36,11 @@ else:
     for entry in os.listdir(folder):
         if os.path.isfile(os.path.join(folder, entry)):
             if entry.endswith(".txt"):
-                print(f"processing single file: {folder}/{entry}")
+                number = folder.split(".")[0]
+                print(f"\tprocessing single file {number}: {folder}/{entry}")
                 
                 # clean the given transcript
-                clean_file(folder, entry)
+                clean_file(folder, entry, number)
 
 
 # given a dir, open each sub dir, find the file that ends in .txt, 
