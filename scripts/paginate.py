@@ -43,8 +43,9 @@ def paginate(number):
     with open(f"{target_dir}/index.html", "w") as f:
         f.writelines(new_file_list)
 
-for i in range(1, len(episodes)+1):
-    paginate(i)
+# uncomment this to generate all pages
+# for i in range(1, len(episodes)+1):
+#     paginate(i)
     
 # generates the dropdown html for an episode (or all episodes)
 def dropdown(number=None):
@@ -76,7 +77,7 @@ def dropdown(number=None):
                 """
             print(out)
 
-# dropdown(58)
+dropdown(59)
 
     
 
