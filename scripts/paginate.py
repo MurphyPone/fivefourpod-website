@@ -44,8 +44,8 @@ def paginate(number):
         f.writelines(new_file_list)
 
 # uncomment this to generate all pages
-# for i in range(1, len(episodes)+1):
-#     paginate(i)
+for i in range(1, len(episodes)+1):
+    paginate(i)
     
 # generates the dropdown html for an episode (or all episodes)
 def dropdown(number=None):
