@@ -54,7 +54,8 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have frayed and flattened our civil rights, like the bristles of an overused toothbrush\"", /* Jones v. Mississippi */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have sent our nation's values spiraling downward, like Bitcoin after an Elon Musk tweet\"", /* Walmart v. Dukes */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have filled America's shoes with pebbles of injustice\"", /* Smith v. Maryland */ 
-            
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have brought American liberty to the brink of extinction, like the widespread use of DDT did to the Bald Eagle\"", /* Fulton v. Philly */ 
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have left our nation parched and weak, like a record-breaking heatwave\"", /* Cedar Point Nursery v. Hassid */ 
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
