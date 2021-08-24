@@ -58,6 +58,7 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have left our nation parched and weak, like a record-breaking heatwave\"", /* Cedar Point Nursery v. Hassid */ 
             "\"A podcast where we dissect and analyze the Supreme Court cases that are decimating our civil liberties, like positive marijuana tests have decimated the U.S. Olympic team\"", /* Brnovich*/
             "\"A podcast where we dissect and analyze the Supreme Court cases are being force-fed to the American people, like we're a goose being fattened up to make Foie Gras\"", /* Americans for Prosperity */
+            "\"A podcast where we dissect and analyze the Supreme Court cases have caused our civil rights to collapse, like an American puppet government in the Middle East\"", /* Nestle */
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
