@@ -63,7 +63,8 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have caused our civil rights to fade out of view, like a dying star in the night sky\"",  /* Adoptive Couple v. */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have thinned the ranks of our civil rights, like vaccine mandates have thinned the ranks of our nation's police departments\"", /* Nieves v. Bartlet*/
             "\"A podcast where we dissect and analyze the Supreme Court cases that hover menacingly over America, like Kyrsten Sinema over a clearance rack at Forever 21\"", /* 21-22 term preview*/
-            "\"A podcast where we dissect and analyze the Supreme Court cases that left American civil liberties brittle and weak, like the femur of a man with osteoperosis\"", /* Younger v. Harris /
+            "\"A podcast where we dissect and analyze the Supreme Court cases that left American civil liberties brittle and weak, like the femur of a man with osteoperosis\"", /* Younger v. Harris */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have caused America's lofty promise to fall like a dying satellite slowly crashing back to earth\"", /* Hamdi v. Rumsfeld */
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
