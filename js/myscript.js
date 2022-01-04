@@ -68,6 +68,7 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have destroyed American democracy, like the filibuster has destroyed the Senate\"", /* Captured Institution */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have caused our liberties to dwindle, like our honeybee populations\"", /* Michigan v. EPA */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have caused our rights to short circuit, like the electricity of co-host's home\"", /* Greece v. Galloway */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have delivered violence upon our civil rights, like Santa delivering gifts to children across the world, and also primarily to the benefit of wealthy Christians, in both cases\"", /* how to give */
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
