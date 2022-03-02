@@ -73,6 +73,7 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have let our rights drift ever further from us, like the decaying orbit of a distant planet from the warmth of its sun\"", /* NFIB v. DOL */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have abandoned the principles of our founding, like Democrats have abandoned teachers' unions\"", /* Parents Involved vs. Seattles No. 1 */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have spread the seeds of hopelessness across the country, like wind to a dandelion\"", /* Ingraham v. Wright */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have put our rights on indefinite hold, like Delta Airlines when I try to call about the flight voucher they owe me\"", /* Merrill v. Milligan */
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
