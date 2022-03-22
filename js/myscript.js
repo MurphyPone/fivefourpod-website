@@ -75,6 +75,7 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have spread the seeds of hopelessness across the country, like wind to a dandelion\"", /* Ingraham v. Wright */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have put our rights on indefinite hold, like Delta Airlines when I try to call about the flight voucher they owe me\"", /* Merrill v. Milligan */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have undermined our democracy, like the CIA is undermining the Russian war effort\"", /* Ginni Mayer */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have sunk the ship of Liberty, like that fire sunk the ship of Audis in the Atlantic Ocean\"", /* Strickland v. Washington */
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
