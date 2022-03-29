@@ -24,8 +24,9 @@ def paginate(number):
         episode = episodes[number]
         lines = f.readlines()
         new_file_list = [None] * len(lines)
-        with open (f"processed_transcripts/{number}_CLEANED.txt", "r") as f2:
+        with open(f"processed_transcripts/{number}_CLEANED.txt", "r") as f2:
             transcript = f2.read()
+
 
         for i,line in enumerate(lines):
             line = line.replace("[[EPISODE_TITLE]]", episode["title"])
