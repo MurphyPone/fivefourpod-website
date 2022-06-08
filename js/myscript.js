@@ -80,7 +80,8 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have left our nation tired and overburdened, like an accountant during tax season\"", /* INS */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have conducted a hostile take over of our Constitution like Elon Musk is doing to Twitter\"", /* Lassiter v. Department of Social Services */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have left our nation frightened and cowering, like a Supreme Court Justice when peaceful protesters assemble on a nearby sidewalk\"", /* United States v. Vaello Madero */
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have frozen our civil liberties, like my zoom freezes, every recording\"" /* Whren v. United States */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have frozen our civil liberties, like my zoom freezes, every recording\"", /* Whren v. United States */
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have sent our civil liberties into gradual decline, like the quality of Netflix's movie library\"" /* Cruz v. FEC */
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
