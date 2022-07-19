@@ -85,7 +85,8 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have left our civil rights weak and cowering, like a police officer during a school shooting\"", /* Egbert v. Boule */
             "\"A podcast where weare sad all the time\"", /* Roe overturned */ 
             "\"A podcast where we dissect and analyze the Supreme Court cases that have buried our civil rights, like a politician burying evidence of his son's DUIs\"", /* Shinn v. Ramirez */ 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have devoured our civil rights, like my cat devouring the salmon I made when I'm not looking\"" /* Kennedy v. Bremerton School District            */ 
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have devoured our civil rights, like my cat devouring the salmon I made when I'm not looking\"", /* Kennedy v. Bremerton School District */ 
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have washed away our civil rights, like the ocean will wash away our beachfront properties\"" /* West Virginia v. Environmental Protection Agency */ 
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
