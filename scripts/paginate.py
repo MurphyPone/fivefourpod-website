@@ -15,7 +15,7 @@ with open("episode_info.csv", "r") as f:
 
 # strips invalid url characters from a title for URL
 def get_cleaned_title(episode):
-    return episode["title"].replace(" ", "-").replace(".", "").replace(",", "").replace(":", "-").replace("\"", "").replace("\'", "").replace("?", "").lower()
+    return episode["title"].replace(" - ", "-").replace(" ", "-").replace(".", "").replace(",", "").replace(":", "-").replace("\"", "").replace("\'", "").replace("?", "").lower()
 
 
 # open the template file and create a new file with the relevant info plugged in 
