@@ -89,7 +89,8 @@ var list = [
             "\"A podcast where we dissect and analyze the Supreme Court cases that have washed away our civil rights, like the ocean will wash away our beachfront properties\"", /* West Virginia v. Environmental Protection Agency */ 
             "\"A podcast where we dissect and analyze the Supreme Court cases that have ruined our nation's promise, like a shark sighting ruining our producer's beach day\"", /* Oklahoma v. Castro-Huerta */ 
             "\"A podcast where we dissect and analyze the Supreme Court cases that have contaminated our nation, like microplastics have contaminated our bloodstreams\"", /* New York State Rifle and Pistol Association v. Bruen */ 
-            "\"A podcast where we dissect and analyze the Supreme Court cases that have eaten away at our civil liberties, like rabbits to a suburban vegetable garden\"" /* Welcome to Law School (Again) */ 
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have eaten away at our civil liberties, like rabbits to a suburban vegetable garden\"",   /* Welcome to Law School (Again) */ 
+            "\"A podcast where we dissect and analyze the Supreme Court cases that have ravaged our nation like long-COVID is ravaging my lungs\"" /* Vega v. Tekoh */ 
           ]
 
 var txt = list[Math.floor(Math.random() * list.length)]
