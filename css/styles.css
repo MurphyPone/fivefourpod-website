@@ -11263,3 +11263,21 @@ form .row:first-child .floating-label-form-group {
     color: white;
     text-decoration: none;
 }
+
+.patreon-btn {
+    background-color: var(--my-blue);
+    color: white;
+    padding: 0.25em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.patreon-btn:hover{
+    background-color: var(--my-dark-blue);
+    color: white;
+    text-decoration: none;
+}

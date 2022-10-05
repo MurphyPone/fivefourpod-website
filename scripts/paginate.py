@@ -78,8 +78,4 @@ def dropdown(number=None):
                 """
             print(out)
 
-dropdown(104)
-
-    
-
-
+dropdown(106)
