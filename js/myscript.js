@@ -18,7 +18,7 @@ var list = [
             "\"A podcast where we dissect and analyze the cases that have swarmed American life, like locusts over a grassy plane\"", /* Exxon v. Baker */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have burned through America, like a dry-season brushfire through a grassland plane\"", /* qualified immunity */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have clogged up the American spirit, like cholesterol in our collective aorta\"", /* Janus v. AFSCME */
-            "\"A podcast where we dissect and analyze the Supreme Court decicions that have born down on Americans, like unfilitered ultraviolet light on a pale, nude body\"", /* Buckley v. Valeo */
+            "\"A podcast where we dissect and analyze the Supreme Court decicions that have born down on Americans, like unfiltered ultraviolet light on a pale, nude body\"", /* Buckley v. Valeo */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have leeched America's nutrients, like a tapeworm from its unsuspecting host\"",  /* Epic Systems */
             "\"A podcast where we dissect and analyze the Supreme Court decisions that have broken down American society, like radiation on human DNA\"", /* Bennis v. Michigan */
             "\"A podcast where we dissect and analyze the Supreme Court cases that have burned through American life, like hot lava through the streets of Pompei\"", /* term recap */
