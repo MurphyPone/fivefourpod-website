@@ -94,8 +94,9 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have killed off our civil liberties, like syphilis killed off the founding fathers"' /* Minor v. Happersett */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have left our rights dark and murky, like the water in Jackson, Mississippi"' /* 2022-2023 Supreme Court Term Preview */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have infested our law, like Lantern Flies have infested New York."' /* Tanner v. United States */,
-  '"A podcast where we dissect and analyze the Supreme Court cases that have caused our civil rights to fall far short of thier promise, like a Russell Wilson pass falling far short of his intended receiver"' /* Independent State Legislature Theory */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have caused our civil rights to fall far short of their promise, like a Russell Wilson pass falling far short of his intended receiver"' /* Independent State Legislature Theory */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our liberty to die off, like the Alaskan Snow Crab population"' /* Bowers v. Hardwick */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have banned our civil rights, like an Elon Musk parody being banned from Twitter"' /* Utah v. Strieff */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
