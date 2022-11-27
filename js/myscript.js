@@ -97,6 +97,7 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our civil rights to fall far short of their promise, like a Russell Wilson pass falling far short of his intended receiver"' /* Independent State Legislature Theory */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our liberty to die off, like the Alaskan Snow Crab population"' /* Bowers v. Hardwick */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have banned our civil rights, like an Elon Musk parody being banned from Twitter"' /* Utah v. Strieff */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have disrupted our civil rights, like the construction outside my apartment has disrupted my sleep"' /* Glossip v. Gross */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
