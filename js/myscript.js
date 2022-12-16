@@ -98,6 +98,7 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our liberty to die off, like the Alaskan Snow Crab population"' /* Bowers v. Hardwick */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have banned our civil rights, like an Elon Musk parody being banned from Twitter"' /* Utah v. Strieff */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have disrupted our civil rights, like the construction outside my apartment has disrupted my sleep"' /* Glossip v. Gross */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have caused our nation to collapse, like Ticketmaster during a Taylor Swift presale"' /* The Pelican Brief */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
