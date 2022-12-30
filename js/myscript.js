@@ -99,6 +99,8 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have banned our civil rights, like an Elon Musk parody being banned from Twitter"' /* Utah v. Strieff */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have disrupted our civil rights, like the construction outside my apartment has disrupted my sleep"' /* Glossip v. Gross */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our nation to collapse, like Ticketmaster during a Taylor Swift presale"' /* The Pelican Brief */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have caused our nation to fall short of its promise, like France in the World Cup"' /* Gift Guide 2022 */,
+  '"A podcast where we promote the other projects that we\'re working on very shamelessly"' /* Outliers */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
