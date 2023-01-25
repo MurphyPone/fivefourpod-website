@@ -102,6 +102,7 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our nation to fall short of its promise, like France in the World Cup"' /* Gift Guide 2022 */,
   '"A podcast where we promote the other projects that we\'re working on very shamelessly"' /* Outliers */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our nation to collapse, like my wife when she works out after forgetting to eat"' /* McDonnell v. United states */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have flattened our civil rights, like a four-wheeled high flyer Phaeton carriage flattening a local street urchin"' /* Giles v. Harris */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
