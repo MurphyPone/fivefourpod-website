@@ -104,6 +104,11 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our nation to collapse, like my wife when she works out after forgetting to eat"' /* McDonnell v. United states */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have flattened our civil rights, like a four-wheeled high flyer Phaeton carriage flattening a local street urchin"' /* Giles v. Harris */,
   '"A podcast where we dissect and analyze the Supreme Court cases that A podcast where we dissect and analyze the Supreme Court cases that have cancelled our civil liberties, like Netflix cancelling your favorite show"' /* Korematsu v. United States */,
+  "\"A podcast where we A podcast where we sometiems we say that we're going to do an episode, but then we don't do an episode\"" /* Connick v. Thompson */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left our nation fatigued and struggling, like a podcaster with a sinus infection"' /* In re Gault with Josie Duffy Rice */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left us drained and dying, like an insolvent venture capital bank"' /* Boyle v. United Technologies Corporation */,
+  '"We do class warfare from 9 to 5 PM everybody"' /* 5-4 x Bloc Party */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that are sinking our civil liberties, like Ron DeSantis sinking his fingers into a cup of pudding"' /* Cruzan v. Missouri Department of Health */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
