@@ -109,6 +109,9 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have left us drained and dying, like an insolvent venture capital bank"' /* Boyle v. United Technologies Corporation */,
   '"We do class warfare from 9 to 5 PM everybody"' /* 5-4 x Bloc Party */,
   '"A podcast where we dissect and analyze the Supreme Court cases that are sinking our civil liberties, like Ron DeSantis sinking his fingers into a cup of pudding"' /* Cruzan v. Missouri Department of Health */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left our liberties frayed and fading like a set of Nazi linens at a billionare\'s dinner party"' /* Ewing v. California */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil rights empty, like Fox News\' prime time lineup without Tucker Carlson"' /* Palmer v. Thompson */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that left our civil rights weak, embarrassing, and pathetic like a Twitter Blue subscriber trying to go viral"' /* The Shadow Docket with Steve Vladeck */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
