@@ -113,8 +113,9 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil rights empty, like Fox News\' prime time lineup without Tucker Carlson"' /* Palmer v. Thompson */,
   '"A podcast where we dissect and analyze the Supreme Court cases that left our civil rights weak, embarrassing, and pathetic like a Twitter Blue subscriber trying to go viral"' /* The Shadow Docket with Steve Vladeck */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have left our liberties ailing, like me sickly cohosts"' /* United Stats v. O'brien */,
-  '"A podcast where we dissect and analyze the Supreme Court cases that are sinking our civil rights, like orcas are sinking boats of the coast of Gibraltar"' /* Sierra Club v. Morton */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that are sinking our civil rights, like orcas are sinking boats off the coast of Gibraltar"' /* Sierra Club v. Morton */,
   '"A podcast where we dissect and analyze the Supreme Court cases that are destroying our rights, like a middle-aged man in Oakleys destroying a pride display at Target"' /* American Ship Building Company v. National Labor Relations Board */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have ruined our country, like cops ruining a pride parade"' /* Protecting Trans Rights with Erin Reed [UNLOCKED] */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
