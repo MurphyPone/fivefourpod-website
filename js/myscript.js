@@ -118,6 +118,7 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have ruined our country, like cops ruining a pride parade"' /* Protecting Trans Rights with Erin Reed [UNLOCKED] */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have banned our civil rights, like Twitter banning its bravest and coolest posters"' /* Sacket v. EPA */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have choked our civil rights, like smoke from Canadian wildfires choking New York City"' /* 303 Creative LLC v. Elenis */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have weighed down our nation, like student debt weighing down a liberal arts student\'s finances"' /* Biden v. Nebraska */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
