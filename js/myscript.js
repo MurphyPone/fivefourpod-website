@@ -121,6 +121,7 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have weighed down our nation, like student debt weighing down a liberal arts student\'s finances"' /* Biden v. Nebraska */,
   '"A podcast where we dissect and analyze the Supreme Court cases that are imploding our civil rights, like a homemade submersible imploding at the bottom of the Atlantic"' /* DeShaney v. Winnebago County Department of Social Services */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have abandoned our civil rights, like our co-host Rhiannon abandoning us when we cover 1st amendment cases"' /* Harisiades v. Shaughnessy */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil rights struggling, like a young white white boy trying to get into Emory"' /* SFFA v. Harvard */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
