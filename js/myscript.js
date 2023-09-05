@@ -122,6 +122,7 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that are imploding our civil rights, like a homemade submersible imploding at the bottom of the Atlantic"' /* DeShaney v. Winnebago County Department of Social Services */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have abandoned our civil rights, like our co-host Rhiannon abandoning us when we cover 1st amendment cases"' /* Harisiades v. Shaughnessy */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil rights struggling, like a young white white boy trying to get into Emory"' /* SFFA v. Harvard */,
+  '"A podcast where we usually dissect and analyze the Supreme Court cases that, blah, blah, blah."' /* Welcome to Law School 2023 */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
