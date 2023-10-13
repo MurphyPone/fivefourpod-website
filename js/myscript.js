@@ -124,8 +124,8 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil rights struggling, like a young white white boy trying to get into Emory"' /* SFFA v. Harvard */,
   '"A podcast where we usually dissect and analyze the Supreme Court cases that, blah, blah, blah."' /* Welcome to Law School 2023 */,
   '"A podcast where we dissect and analyze the Supreme Court cases that are breaking our civil rights, like mercury breaking through our thermometers"' /* United States v. Sioux Nation with Nick Estes */,
-  '"A podcast where we dissect and analyze the Supreme Court cases that are breaking our civil rights, like mercury breaking through our thermometers"' /* 2023-2024 Term Preview with Chris Geidner */,
-  '"A podcast where we dissect and analyze the Supreme Court cases that are breaking our civil rights, like mercury breaking through our thermometers"' /* 2023-2024 Term Preview with Chris Geidner */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have jerked around our civil rights, like a Republican congresswoman, jerking off her boyfriend in a public theater"' /* Hampton v. United States */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have disrupted our civil rights, like shots of Taylor Swift disrupting an NFL broadcast"' /* Berghuis v. Thompkins */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
