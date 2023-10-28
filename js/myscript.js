@@ -126,6 +126,8 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that are breaking our civil rights, like mercury breaking through our thermometers"' /* United States v. Sioux Nation with Nick Estes */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have jerked around our civil rights, like a Republican congresswoman, jerking off her boyfriend in a public theater"' /* Hampton v. United States */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have disrupted our civil rights, like shots of Taylor Swift disrupting an NFL broadcast"' /* Berghuis v. Thompkins */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have interrupted the arc of history, like Michael\'s dogs interupting our recordings"' /* Geduldig v. Aiello */,
+  '"A podcast about how much the Supreme Court, and apartheid, suck"' /* Palestine Legal */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
