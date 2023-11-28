@@ -128,6 +128,8 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have disrupted our civil rights, like shots of Taylor Swift disrupting an NFL broadcast"' /* Berghuis v. Thompkins */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have interrupted the arc of history, like Michael\'s dogs interupting our recordings"' /* Geduldig v. Aiello */,
   '"A podcast about how much the Supreme Court, and apartheid, suck"' /* Palestine Legal */,
+  '"A podcast where we dissect and analyze the Supreme Court decisions that have left us blinded and aimless like NFT owners after a Bored Ape yacht club event"' /* Schenck v. United States */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have burned down our civil rights, like a person trying to deep-fry a turkey burning down their home"' /* Richardson v. Ramirez */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
