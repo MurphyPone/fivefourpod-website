@@ -134,6 +134,9 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have rescinded our civil rights, like a law firm rescinding a Palestinian activist\'s job offer"' /* How to Lose Your Job by Supporting Palestine [UNLOCKED] */,
   '"A podcast where we celebrate Christmas, guys. The birth of our Lord and savior Jesus Christ. THE OFFICIAL GOD of the 5-4 podcast"' /* The 5-4 Giving Guide 2023 */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have ruined our constitution like the polar vortex is ruining my week"' /* The Federalist Society, part 1: Immodest Origins */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have ruined our constitution like the polar vortex is ruining my week"' /* The Federalist Society, part 1: Immodest Origins */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have torn apart our country, like award season is tearing apart my household"' /* The Federalist Society, part 2: The Debate Club */,
+  '""A podcast where we dissect and analyze the Supreme Court cases that have ruined our constitution, like construction noises ruining my week"' /* The Federalist Society, part 2: The Debate Club */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
