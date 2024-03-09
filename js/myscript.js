@@ -137,7 +137,8 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have ruined our constitution like the polar vortex is ruining my week"' /* The Federalist Society, part 1: Immodest Origins */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have torn apart our country, like award season is tearing apart my household"' /* The Federalist Society, part 2: The Debate Club */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have ruined our constitution, like construction noises ruining my week"' /* The Federalist Society, part 2: The Debate Club */,
-  '"A podcast where we dissect and analyze the Supreme Court cases that have caused our nation to collapse, like Kyle Shanahan in the super bowl."' /* Maryland v. Shatzer */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have caused our nation to collapse, like Kyle Shanahan in the super bowl"' /* Maryland v. Shatzer */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have abandoned our civil liberties like Peter abandoning the podcast this week"' /* Trump v. Anderson */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
