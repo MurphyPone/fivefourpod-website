@@ -26,4 +26,6 @@ processing all transcript files
 - the `dropdown()` function can be used to generate a dropdown description HTML snippet for the home page, linking to the generated episode page
 
 
+## Episodes I still need .txt transcripts for 
 
+- Giving 2023: https://www.dropbox.com/scl/fo/ig55jhyz6hg9kynx5zbrf/AKdTt0c3tUoqgFtC_PTzxu4?rlkey=g8j94thoiwje9p9oj8wdk29i0&dl=0
