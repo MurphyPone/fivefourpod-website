@@ -29,3 +29,12 @@ processing all transcript files
 ## Episodes I still need .txt transcripts for 
 
 - Giving 2023: https://www.dropbox.com/scl/fo/ig55jhyz6hg9kynx5zbrf/AKdTt0c3tUoqgFtC_PTzxu4?rlkey=g8j94thoiwje9p9oj8wdk29i0&dl=0
+- If books could kill: Outliers
+- 5-4 x bloc part
+- Brett Kavanaugh unlocked
+- Dobbs v Jackson
+- Illinois v Cabellas
+- Maryland v. Shatzer
+- Giving Guide 2023
+- Trump v. Anderson
+- Welcome to Law School Again
