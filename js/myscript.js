@@ -140,6 +140,8 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our nation to collapse, like Kyle Shanahan in the super bowl"' /* Maryland v. Shatzer */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have abandoned our civil liberties like Peter abandoning the podcast this week"' /* Trump v. Anderson */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have confiscated our liberty like airport security confiscating my water bottles"' /* Illinois v. Caballes */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have drained our nation, like trying to buy a house has drained me"' /* United States v. Jones */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have destroyed our civil rights, like an eclipse destroying Donald Trump\'s retinas"' /* Holder v. Humanitarian Law Project */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
