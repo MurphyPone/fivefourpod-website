@@ -1421,6 +1421,7 @@ let searchIndex = [
     } 
 
     webSearchButton.style.display = 'none'
+    searchStatus.style.display = 'none'
 
     webSearchButton.addEventListener('click', () => {
         const query = input.value.toLowerCase()
@@ -1440,20 +1441,24 @@ let searchIndex = [
                     episode.blurb.toLowerCase().includes(query) 
 
         })
-        if (filteredEpisodeList.length == 0){
+
+        if (filteredEpisodeList.length === 0){
             console.log("search web")
             webSearchButton.style.display = 'block'
             showResults(filteredEpisodeList)
-        }
-        else {
+        } else if (filteredEpisodeList.length === searchIndex.length)  {
+            console.log("SAME NUMBER")
             showResults(filteredEpisodeList)
             webSearchButton.style.display = 'none'
-            searchStatus.style.visibility = 'visible'
+            searchStatus.style.display = 'none'
+        } else {
+            showResults(filteredEpisodeList)
+            webSearchButton.style.display = 'none'
+            searchStatus.style.display = 'block'
         }
     
     })
 
-    searchStatus.style.visibility = 'hidden'
     showResults(filteredEpisodeList)
 
     
