@@ -1443,11 +1443,9 @@ let searchIndex = [
         })
 
         if (filteredEpisodeList.length === 0){
-            console.log("search web")
             webSearchButton.style.display = 'block'
             showResults(filteredEpisodeList)
         } else if (filteredEpisodeList.length === searchIndex.length)  {
-            console.log("SAME NUMBER")
             showResults(filteredEpisodeList)
             webSearchButton.style.display = 'none'
             searchStatus.style.display = 'none'
@@ -1468,7 +1466,6 @@ let searchIndex = [
      * @param  {Array}  results The results to display
      */
     function showResults (results) {
-        console.log(results)
         if (results.length) {
             searchStatus.innerHTML = `<p>Found ${results.length} matching episodes</p>`;
             episodeList.innerHTML = myTemplate(results);
@@ -1493,7 +1490,6 @@ let searchIndex = [
      * @param  {Array}  results The results to display
      */
     function myTemplate (results) {
-        // console.log(results)
         const r = results.flatMap((res) => {
             return `
             <div class="collapsible">${res.title}<a style=float:right;>${res.index}</a></div>
