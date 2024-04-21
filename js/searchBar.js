@@ -1391,121 +1391,122 @@ let searchIndex = [
 
 (function () {
     // Get the DOM elements
-    let form = document.querySelector('#form-search');
-    let input = document.querySelector('#input-search');
-    let resultList = document.querySelector('#search-results');
-    let searchStatus = document.querySelector('#search-status');
+    let input = document.querySelector('#episode-search');
+    let episodeList = document.querySelector('#episode-container');
+    let searchStatus = document.querySelector('#search-status')
+    let webSearchButton = document.querySelector('#web-search')
+
+    let reversedEpisodeList = searchIndex.reverse()
+    let filteredEpisodeList = [...reversedEpisodeList]
     
     
-    if (!form || !input || !resultList || !searchStatus || !searchIndex) return;
+    if (!input) {
+        console.log("failed to find input")
+        return;
+    } 
 
-    form.addEventListener('submit', submitHandler);
-    // console.log('loaded listener')
+    if (!episodeList) {
+        console.log("failed to find episodeList")
+        return;
+    } 
 
+    if (!searchStatus) {
+        console.log("failed to find searchStatus")
+        return;
+    } 
+
+    if (!webSearchButton) {
+        console.log("failed to find webSearchButton")
+        return;
+    } 
+
+    webSearchButton.style.display = 'none'
+    searchStatus.style.display = 'none'
+
+    webSearchButton.addEventListener('click', () => {
+        const query = input.value.toLowerCase()
+        window.open(`https://duckduckgo.com/?q=${query}&sites=fivefourpod.com`, "_blank")
+    })
+
+    input.addEventListener('input', (event) => {
+        const query = event.target.value.toLowerCase()
+        console.log(query)
+
+        filteredEpisodeList = [...reversedEpisodeList].filter((episode) => {
+            return episode.title.toLowerCase().includes(query) || 
+                    episode.date.toLowerCase().includes(query) || 
+                    episode.slug.toLowerCase().includes(query) ||
+                    episode.content.toLowerCase().includes(query) ||
+                    episode.description.toLowerCase().includes(query) ||
+                    episode.blurb.toLowerCase().includes(query) 
+
+        })
+
+        if (filteredEpisodeList.length === 0){
+            console.log("search web")
+            webSearchButton.style.display = 'block'
+            showResults(filteredEpisodeList)
+        } else if (filteredEpisodeList.length === searchIndex.length)  {
+            console.log("SAME NUMBER")
+            showResults(filteredEpisodeList)
+            webSearchButton.style.display = 'none'
+            searchStatus.style.display = 'none'
+        } else {
+            showResults(filteredEpisodeList)
+            webSearchButton.style.display = 'none'
+            searchStatus.style.display = 'block'
+        }
+    
+    })
+
+    showResults(filteredEpisodeList)
+
+    
 
     /**
-     * Handle submit events
+     * Show the search results in the UI
+     * @param  {Array}  results The results to display
      */
-    function submitHandler (event) {
-        event.preventDefault();
-        search(input.value);
+    function showResults (results) {
+        console.log(results)
+        if (results.length) {
+            searchStatus.innerHTML = `<p>Found ${results.length} matching episodes</p>`;
+            episodeList.innerHTML = myTemplate(results);
+            var coll = document.getElementsByClassName("collapsible");
+
+            for (var i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.maxHeight) content.style.maxHeight = null;
+                    else content.style.maxHeight = content.scrollHeight + "px"; 
+                });
+            }
+        } else {
+            searchStatus.innerHTML = '<p>Sorry, no matches were found.</p>';
+            episodeList.innerHTML = '';
+        }
     }
 
-    let stopWords = ['a', 'an', 'and', 'are', 'aren\'t', 'as', 'by', 'can', 'cannot', 'can\'t', 'could', 'couldn\'t', 'how', 'is', 'isn\'t', 'it', 'its', 'it\'s', 'that', 'the', 'their', 'there', 'they', 'they\'re', 'them', 'to', 'too', 'us', 'very', 'was', 'we', 'well', 'were', 'what', 'whatever', 'when', 'whenever', 'where', 'with', 'would', 'yet', 'you', 'your', 'yours', 'yourself', 'yourselves', 'the', 'vanilla', 'javascript', 'js'];
-
-/**
- * Search for matches
- * @param  {String} query The term to search for
- */
-function search (query) {
-    // console.log(query)
-
-    // Create a regex for each query
-    let regMap = query.toLowerCase().split(' ').filter(function (word) {
-        return word.length && !stopWords.includes(word);
-    }).map(function (word) {
-        return new RegExp(word, 'i');
-    });
-
-    
-    // Get and sort the results
-    let results = searchIndex.reduce(function (results, article, index) {
-        // Setup priority count
-        let priority = 0;
-
-        // Assign priority
-        for (let reg of regMap) {
-            if (reg.test(article.title)) { priority += 100; }
-            let contentOccurences = article.content.match(reg);
-            let descriptionOccurences = article.description.match(reg);
-            let blurbOccurences = article.blurb.match(reg);
-            
-            if (contentOccurences) { priority += contentOccurences.length; }
-            if (descriptionOccurences) { priority += descriptionOccurences.length; }
-            if (blurbOccurences) { priority += blurbOccurences.length; }
-        }
-
-        // If any matches, push to results
-        if (priority > 0) {
-            results.push({
-                priority: priority,
-                article: article
-            });
-        }
-
-        return results;
-    }, []).sort(function (article1, article2) {
-        return article2.priority - article1.priority;
-    });
-
-    // Display the results
-    showResults(results);
-}
-
-/**
- * Show the search results in the UI
- * @param  {Array}  results The results to display
- */
-function showResults (results) {
-    if (results.length) {
-        searchStatus.innerHTML = `<p>Found ${results.length} matching episodes</p>`;
-        resultList.innerHTML = myTemplate(results);
-        var coll = document.getElementsByClassName("collapsible");
-
-        for (var i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight) content.style.maxHeight = null;
-                else content.style.maxHeight = content.scrollHeight + "px"; 
-            });
-        }
-    } else {
-        searchStatus.innerHTML = '<p>Sorry, no matches were found.</p>';
-        resultList.innerHTML = '';
-    }
-}
-
-/**
- * Show the search results in the UI
- * @param  {Array}  results The results to display
- */
- function myTemplate (results) {
-    // console.log(results)
-    const r = results.flatMap((res) => {
-        return `
-        <div class="collapsible">${res.article.title}<a style=float:right;>${res.article.index}</a></div>
-            <div class="content">
-                <div>
-                    <p>${res.article.description}</p>
-                    <div class="transcript-wrapper">
-                        <a href="/episodes/${res.article.slug}/" class="transcript-btn">TRANSCRIPT</a>
+    /**
+     * Show the search results in the UI
+     * @param  {Array}  results The results to display
+     */
+    function myTemplate (results) {
+        // console.log(results)
+        const r = results.flatMap((res) => {
+            return `
+            <div class="collapsible">${res.title}<a style=float:right;>${res.index}</a></div>
+                <div class="content">
+                    <div>
+                        <p>${res.description}</p>
+                        <div class="transcript-wrapper">
+                            <a href="/episodes/${res.slug}/" class="transcript-btn">TRANSCRIPT</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        `
-    }).join('')
-    return r
-}
-
+            `
+        }).join('')
+        return r
+    }
 })();
