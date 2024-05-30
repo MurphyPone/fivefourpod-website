@@ -11267,9 +11267,10 @@ form .row:first-child .floating-label-form-group {
 .patreon-btn {
     background-color: var(--my-blue);
     color: white;
+    margin: 1em;
     padding: 0.25em;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
     border-radius: 0.5em;
     text-align: center;
     text-decoration: none;
