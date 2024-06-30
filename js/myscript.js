@@ -145,6 +145,9 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have broken our nation, like a cop on the subway breaking his Candy Crush high score"' /* Hans v. Louisiana */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have failed our nation, like a future cop failing 9th grade English"' /* Free Rhiannon! Campus Protests and the First Amendment */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have canceled our civil liberties, like a cowardly university cancelling commencement"' /* Maryland v. King */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have flipped our civil liberties upside down, like the Alito family\'s American flag"' /* Arizona v. Navajo Nation */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have wasted away our nation, like me wasting away my afternoons, playing video games"' /* Alexander v. South Carolina NAACP */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have plowed through our civil liberties, like a lifted pickup plowing through a crosswalk"' /* Garland v. Cargill */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
