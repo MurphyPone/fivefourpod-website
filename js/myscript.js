@@ -153,6 +153,16 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have humiliated our nation, like me humiliating myself in front of a customer service agent"' /* Loper Bright Enterprises v. Raimondo */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have sickened our nation like Olympic swimmers in the Sienet"' /* Grants Pass v. Johnson */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have ravaged our nation, like racoons ravaging my trashcans"' /* Fischer v. United States */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that make our country bad, or whatever. No metaphor. Because ... this is a re-run"' /* Welcome to Law School 2024 */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have wittled away at our nation, like sports betting apps wittling at men\'s bank accounts"' /* United States v. Stanley */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have wrestled our rights to the ground like  Miami police taking down Tyreek Hill"' /* Securities and Exchange Commission v. Jarkesy */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have arrested our civil liberties, like Donald Trump arresting us in four months"' /* 2024-2025 Supreme Court Term Preview */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have chased away our civil liberties, like Michael\'s dog chasing away a coyote"' /* Mackenzie v. Hare */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have brought our nation\'s progress to a halt, like Donald Trump bringing a town hall to a halt so he can listen to music"' /* The Coming Battle Over Reproductive Rights */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left our nation wandering aimlessly, like me a Trader Joe\'s looking for snacks"' /* Elon Musk’s War on Workers */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left us abandoned, like Hispanic men abandoning the Democratic party"' /* First as Farce, Then as Tragedy */,
+  '"Welcome to 5-4, where we dissect and analyze the Supreme Court cases that have left us pathetic and flailing like Drake suing Kendrick Lamar\'s label"' /* United States v 95 Barrels of Vinegar */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left us pathetic and flailing like Drake suing Kendrick Lamar\'s label."' /* United States v 95 Barrels of Vinegar */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
