@@ -9,7 +9,12 @@ def clean_file(folder, entry, number):
     with open(f"{folder}/{entry}", "r") as f:
         for line in f:
             if not line == "\n":
-                cleaned_lines.append(f"<p>{line.strip()}</p>")
+                cleaned_line = line.strip()
+                if ":" in line:
+                    idx = line.index(":")
+                    name = line[:idx].strip()
+                    cleaned_line = f"<b>{name}</b>{line[idx:].strip()}"
+                cleaned_lines.append(f"<p>{cleaned_line}</p>")
     with open(f"{DEST_PATH}/{number}_CLEANED.txt", "w") as f:
         for line in cleaned_lines:
             f.write(f"{line}\n")

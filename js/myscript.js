@@ -160,9 +160,10 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have chased away our civil liberties, like Michael\'s dog chasing away a coyote"' /* Mackenzie v. Hare */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have brought our nation\'s progress to a halt, like Donald Trump bringing a town hall to a halt so he can listen to music"' /* The Coming Battle Over Reproductive Rights */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have left our nation wandering aimlessly, like me a Trader Joe\'s looking for snacks"' /* Elon Musk’s War on Workers */,
-  "A podcast where we dissect and analyze the Supreme Court cases that have steered our country toward disaster like Kamala Harris steering a hurricane toward red counties", /* The Year Ahead for Trans Rights [UNLOCKED] */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have steered our country toward disaster like Kamala Harris steering a hurricane toward red counties"', /* The Year Ahead for Trans Rights [UNLOCKED] */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have left us abandoned, like Hispanic men abandoning the Democratic party"' /* First as Farce, Then as Tragedy */,
   '"Welcome to 5-4, where we dissect and analyze the Supreme Court cases that have left us pathetic and flailing like Drake suing Kendrick Lamar\'s label"' /* United States v 95 Barrels of Vinegar */,
+  '"Welcome to 5-4, where we dissect and analyze the Supreme Court cases that have humiliated our nation, like me humiliating myself putting up Christmas lights"' /* Illinois v. Wardlow */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
