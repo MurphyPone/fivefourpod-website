@@ -45,8 +45,8 @@ def paginate(number):
         f.writelines(new_file_list)
 
 # uncomment this to generate all pages
-for i in range(1, len(episodes)+1):
-    paginate(i)
+# for i in range(1, len(episodes)+1):
+#     paginate(i)
     
 # generates the dropdown html for an episode (or all episodes)
 def dropdown(number=None):
@@ -78,4 +78,9 @@ def dropdown(number=None):
                 """
             print(out)
 
-dropdown(180)
+# legacy transcripts prior to ep 181 don't have markup, so don't run the whole batch anymore
+def paginate_single(number):
+    paginate(number)
+    dropdown(number)
+
+paginate_single(181)

@@ -165,6 +165,8 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have left us pathetic and flailing like Drake suing Kendrick Lamar\'s label"' /* United States v 95 Barrels of Vinegar */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have been stalking our civil rights, like drones stalking New Jersey"' /* The 2024 5-4 Giving Guide */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have annexed our civil right, like Trump\'s gonna annex Greenland"' /* 5-4 x Know Your Enemy: Trump 2.0 and the Courts */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have caused our civil rights to collapse, like the inaugural stage beneath Donald Trump"' /* Murphy v. NCAA */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil rights snowed in, like Rhiannon when it snows half an inch in Texas"' /* Tik Tok v. Garland */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
