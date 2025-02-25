@@ -167,6 +167,9 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have annexed our civil right, like Trump\'s gonna annex Greenland"' /* 5-4 x Know Your Enemy: Trump 2.0 and the Courts */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our civil rights to collapse, like the inaugural stage beneath Donald Trump"' /* Murphy v. NCAA */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil rights snowed in, like Rhiannon when it snows half an inch in Texas"' /* Tik Tok v. Garland */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have eliminated our civil rights like Donald Trump eliminating entire federal agencies"' /* Trump's Opening Salvo */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have frozen our civil liberties, like Donald Trump freezing the federal budget"' /* Your Trump 2.0 Questions, Answered [UNLOCKED] */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have poked holes in our civil rights, like Elon Musk poking holes in his brain with amphetamines"' /* NIFLA v. Becerra [UNLOCKED] */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
