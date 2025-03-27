@@ -170,6 +170,8 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have eliminated our civil rights like Donald Trump eliminating entire federal agencies"' /* Trump's Opening Salvo */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have frozen our civil liberties, like Donald Trump freezing the federal budget"' /* Your Trump 2.0 Questions, Answered [UNLOCKED] */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have poked holes in our civil rights, like Elon Musk poking holes in his brain with amphetamines"' /* NIFLA v. Becerra [UNLOCKED] */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have our civil liberties falling from the sky like airplanes during the Trump administration"' /* McCutcheon v. FEC */,
+  '" where we dissect and analyze the Supreme Court cases that have caused our civil rights to collapse like the stock market under Donald Trump."' /* San Francisco v. EPA */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
