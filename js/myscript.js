@@ -171,10 +171,13 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have frozen our civil liberties, like Donald Trump freezing the federal budget"' /* Your Trump 2.0 Questions, Answered [UNLOCKED] */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have poked holes in our civil rights, like Elon Musk poking holes in his brain with amphetamines"' /* NIFLA v. Becerra [UNLOCKED] */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have our civil liberties falling from the sky like airplanes during the Trump administration"' /* McCutcheon v. FEC */,
-  '" where we dissect and analyze the Supreme Court cases that have caused our civil rights to collapse like the stock market under Donald Trump."' /* San Francisco v. EPA */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have caused our civil rights to collapse like the stock market under Donald Trump."' /* San Francisco v. EPA */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our civil rights to fall apart like my March Madness bracket on day one."'/* Mobile v. Bolden */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have caused our civil liberties to decline, like Tesla\'s sales figures."'/* Department of State v. Muñoz */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have destabilized our civil rights like Trump destabilizing the economy."'/* Trump v. J.G.G. */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that are bankrupting our civil rights like the words "please" and "thank you" are bankrupting OpenAI"'/* US v. Zubaydah */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have radicalized our nation like group chats radicalizing our nation\'s billionaires"'/* Hazelwood School District v. Kuhlmeier */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have killed off our civil rights, like old age killing off congressional democrats"'/* Jones v. North Carolina Prisoners' Labor Union */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
