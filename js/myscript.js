@@ -177,7 +177,9 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have destabilized our civil rights like Trump destabilizing the economy."'/* Trump v. J.G.G. */,
   '"A podcast where we dissect and analyze the Supreme Court cases that are bankrupting our civil rights like the words "please" and "thank you" are bankrupting OpenAI"'/* US v. Zubaydah */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have radicalized our nation like group chats radicalizing our nation\'s billionaires"'/* Hazelwood School District v. Kuhlmeier */,
-  '"A podcast where we dissect and analyze the Supreme Court cases that have killed off our civil rights, like old age killing off congressional democrats"'/* Jones v. North Carolina Prisoners' Labor Union */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have killed off our civil rights, like old age killing off congressional Democrats"'/* Jones v. North Carolina Prisoners' Labor Union */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have meddled with our civil rights, like the DOJ meddling with the Harvard Law Review"'/* Trump v. Wilcox */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have where we dissect and analyze the Supreme Court cases that have forced our civil liberties to sleep on the ground like the National Guard in LA"'/* The DOGE Cases */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
