@@ -83,4 +83,8 @@ def paginate_single(number):
     paginate(number)
     dropdown(number)
 
-paginate_single(195)
+n = 195
+paginate_single(n)
+
+for i in range(182, n+1):
+    paginate(i)
