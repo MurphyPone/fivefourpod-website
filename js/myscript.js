@@ -182,6 +182,7 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have where we dissect and analyze the Supreme Court cases that have forced our civil liberties to sleep on the ground like the National Guard in LA"'/* The DOGE Cases */,
   '"where we dissect and analyze the Supreme Court cases that have sent our civil liberties down in flames like Andrew Cuomo\'s mayoral campaign"' /* United States v. Skrmetti */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have stripped away our civil rights, like Republicans stripping away rural hospitals"' /* Trump v. CASA, Inc. */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have shredded our civil liberties, like Donald Trump shredding the Epstein files"' /* Mahmoud v. Taylor */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
