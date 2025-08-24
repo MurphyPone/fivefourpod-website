@@ -183,6 +183,8 @@ var list = [
   '"where we dissect and analyze the Supreme Court cases that have sent our civil liberties down in flames like Andrew Cuomo\'s mayoral campaign"' /* United States v. Skrmetti */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have stripped away our civil rights, like Republicans stripping away rural hospitals"' /* Trump v. CASA, Inc. */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have shredded our civil liberties, like Donald Trump shredding the Epstein files"' /* Mahmoud v. Taylor */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have pounded our civil liberties like... uh let\'s actually skip the metaphor this week"' /* Free Speech Coalition, Inc. v. Paxton */,
+  '"A podcast where we dissect and analyze the Supreme Court cases have turned our nation cryptically racist like an American Eagle ad"' /* Trump Brings the War Home [UNLOCKED] */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
