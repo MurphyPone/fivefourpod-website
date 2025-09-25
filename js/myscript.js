@@ -185,6 +185,10 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have shredded our civil liberties, like Donald Trump shredding the Epstein files"' /* Mahmoud v. Taylor */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have pounded our civil liberties like... uh let\'s actually skip the metaphor this week"' /* Free Speech Coalition, Inc. v. Paxton */,
   '"A podcast where we dissect and analyze the Supreme Court cases have turned our nation cryptically racist like an American Eagle ad"' /* Trump Brings the War Home [UNLOCKED] */,
+  '"A podcast where we dissect and analyze the Supreme Court cases have left our nation wandering aimlessly, like Donald Trump on the White House roof"' /* McMahon v. New York */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have occupied our Constitution like the National Guard occupying Washington, DC"' /* Medina v. Planned Parenthood South Atlantic */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have drained our spirits like a law school orientation"' /* Welcome to Law School 2025 */,
+  '"A podcast where where we dissect and analyze the Supreme Court cases that have written off our civil liberties, like Donald Trump writing off a poem to Jeffrey Epstein."' /* Noem v. Vasquez Perdomo */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
