@@ -193,6 +193,9 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have revised our nation\'s trajectory downwards like the latest jobs numbers"' /* Department of State v. AIDS Vaccine Advocacy Coalition */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have filled our country with racism like a Young Republican group chat"' /* Immigration and Naturalization Service v. Lopez-Mendoza */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have rat-fucked our nation, like the media is trying to rat-fuck Zohran Mamdani"' /* Garcetti v. Ceballos */,
+  '"A podcast about how much ICE sucks"' /* "What's at Stake is Everything": The Last Columbia Protestor in ICE Detention */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have exposed our nation like Jeffrey Epstein\'s emails have exposed Donald Trump"' /* Department of Homeland Security v. Thuraissigiam */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have failed our nation like a CChristian student failing a writing assignment"' /* Trump v. Orr */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
