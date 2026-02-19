@@ -11267,9 +11267,10 @@ form .row:first-child .floating-label-form-group {
 .patreon-btn {
     background-color: var(--my-blue);
     color: white;
+    margin: 1em;
     padding: 0.25em;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
     border-radius: 0.5em;
     text-align: center;
     text-decoration: none;
@@ -11285,12 +11286,24 @@ form .row:first-child .floating-label-form-group {
 #episode-search {
     width: 100%;
     box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
+    border: 2px solid var(--secondary);
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-family: inherit;
+    color: #495057;
+    background-color: #fff;
     background-image: url('/assets/img/searchicon.png');
-    background-position: 10px 13px; 
+    background-position: .75rem center;
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    background-size: 1.125rem;
+    padding: .5rem .75rem .5rem 2.5rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#episode-search::placeholder {
+    color: #6c757d;
+}
+
+#episode-container {
+    margin-top: 1.5rem;
 }
