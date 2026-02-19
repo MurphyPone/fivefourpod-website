@@ -196,7 +196,11 @@ var list = [
   '"A podcast about how much ICE sucks"' /* "What's at Stake is Everything": The Last Columbia Protestor in ICE Detention */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have exposed our nation like Jeffrey Epstein\'s emails have exposed Donald Trump"' /* Department of Homeland Security v. Thuraissigiam */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have failed our nation like a CChristian student failing a writing assignment"' /* Trump v. Orr */,
-  '"A podcast where we dissect and analyze the Supreme Court cases that have blockaded our civil rights like Trump blockading Venezuelan waters."' /* The 2025 5-4 Giving Guide: Don't Let the Fascists Keep You Down final web transcript  */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have blockaded our civil rights like Trump blockading Venezuelan waters"' /* The 2025 5-4 Giving Guide: Don't Let the Fascists Keep You Down */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have abolished our civil rights, like we\'re going to abolish ICE"' /* The Rise and Fall of the Voting Rights Act, Part I */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have dismissed our civil liberties, like me being dismissed from jury duty"' /* The Rise and Fall of the Voting Rights Act, Part II */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil liberties frozen and leaking, like the pipes in my house"' /* Immigration and Naturalization Service v. Delgado */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil rights down bad, like a Norwegian biathlete"' /* Pulsifer v. United States  */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
