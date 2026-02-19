@@ -196,6 +196,7 @@ var list = [
   '"A podcast about how much ICE sucks"' /* "What's at Stake is Everything": The Last Columbia Protestor in ICE Detention */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have exposed our nation like Jeffrey Epstein\'s emails have exposed Donald Trump"' /* Department of Homeland Security v. Thuraissigiam */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have failed our nation like a CChristian student failing a writing assignment"' /* Trump v. Orr */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have blockaded our civil rights like Trump blockading Venezuelan waters."' /* The 2025 5-4 Giving Guide: Don't Let the Fascists Keep You Down final web transcript  */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
