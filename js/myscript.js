@@ -201,6 +201,14 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have dismissed our civil liberties, like me being dismissed from jury duty"' /* The Rise and Fall of the Voting Rights Act, Part II */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil liberties frozen and leaking, like the pipes in my house"' /* Immigration and Naturalization Service v. Delgado */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil rights down bad, like a Norwegian biathlete"' /* Pulsifer v. United States  */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have stolen our civil liberties, like two podcast hosts stealing the other host\'s favorite bit"' /* Immigration Law in 2026: Fighting the Cruelty Machine */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have chased away our civil rights, like Iran chasing influencers out of Dubai"' /* Learning Resource Inc. v. Trump */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have constricted our civil liberties, like the war is constricting our oil supply thereby causing gas prices to rise"' /* Dames & Moore v. Regan */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have caused our nation to fall apart, like Kristi Noem\'s marriage"' /* Hudson v. Michigan */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have sent our civil rights to the far side of the moon, like the Artemis space craft"' /* Chiles v. Salazar */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have cratered our civil rights, like final exams cratering our listener\'s careers"' /* The Tea: Leaks, Gossip, and More Supreme Court Drama */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have sedated our civil rights, like my cohost sedating himself"' /* Brecht v. Abrahamson */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have lost track oof our civil rights, like my doctor losing my test results"' /* Louisiana v. Callais */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
