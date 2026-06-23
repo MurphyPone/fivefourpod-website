@@ -209,6 +209,8 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have cratered our civil rights, like final exams cratering our listener\'s careers"' /* The Tea: Leaks, Gossip, and More Supreme Court Drama */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have sedated our civil rights, like my cohost sedating himself"' /* Brecht v. Abrahamson */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have lost track oof our civil rights, like my doctor losing my test results"' /* Louisiana v. Callais */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have drained our civil liberties like Trump\'s payments to January 6thers are draining the Treasury"' /* Immigration and Naturalization Service v. Chadha */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have debased our civil rights like hosting a UFC fight at the White House is debasing our nation"' /* California v. Greenwood */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
