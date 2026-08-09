@@ -211,6 +211,11 @@ var list = [
   '"A podcast where we dissect and analyze the Supreme Court cases that have lost track oof our civil rights, like my doctor losing my test results"' /* Louisiana v. Callais */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have drained our civil liberties like Trump\'s payments to January 6thers are draining the Treasury"' /* Immigration and Naturalization Service v. Chadha */,
   '"A podcast where we dissect and analyze the Supreme Court cases that have debased our civil rights like hosting a UFC fight at the White House is debasing our nation"' /* California v. Greenwood */,
+  '"A podcast where we dissect and analyze John Roberts with Lisa Graves"' /* "The Most Destructive Chief Justice in My Lifetime": Dissecting John Roberts with Lisa Graves */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have put our civil rights to sleep, like Donald Trump at a public event"' /* 250 Years of Bad Decisions: SCOTUS, the Civil War, and the End of Reconstruction */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have left our civil rights thin and depleted like the crowds at the Great American State Fair"' /* Trump v. Barbara */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have ravaged our civil rights like the cyclospora is ravaging our nation\'s intestines"' /* West Virginia v. B.P.J. */,
+  '"A podcast where we dissect and analyze the Supreme Court cases that have embarrassed our nation like the World Cup final halftime show"' /* Mullin v. Doe */,
 ];
 
 var txt = list[Math.floor(Math.random() * list.length)];
